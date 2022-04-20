@@ -1,0 +1,21 @@
+body {
+    font-family: Arial;
+}
+
+.backgroud-red p {
+    color: rgba(60, 24, 160, 1);
+    font-size: 20px;
+    text-align: center;
+}
+
+.highlighted {
+    background-color: pink;
+}
+
+.with-back-image {
+    /* background-image: url('https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg'); */
+    background-image: url('../img/london.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
